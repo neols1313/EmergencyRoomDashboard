@@ -1,0 +1,85 @@
+/* Logo */
+/* Adapted from Zachary Blackwood */
+
+[data-testid="stAppViewContainer"] > .main {
+  padding-left: 0%;
+  margin-left: 0px;
+  }
+
+[data-testid="stSidebar"] {
+                background-image: url(https://cdn-icons-png.freepik.com/256/4320/4320371.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                background-position: 10px 20px;
+            }
+
+h3 {text-align: center;}
+
+p {
+  text-align: center; 
+  font-size: 18px;
+  }
+
+.stTextLabelWrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  }
+
+div[data-testid= "stText"] {
+  font-size: 38px; 
+  max-width: 80%;
+  color: rgba(254, 255, 255, 0.901);
+  word-wrap: break-word;}
+
+div[data-testid="stMetric"] {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px ;
+  overflow-wrap: break-word;
+  white-space: break-spaces; 
+  justify-content: center;
+  display: flex;
+}
+
+label[data-testid="stMetricLabel"] {
+  overflow-wrap: break-word;
+  white-space: break-spaces; 
+  color: rgb(6, 6, 6);
+  font-size: 24px;
+  }
+
+div[data-testid= 'column'] {
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid rgba(0, 0, 0, 0);
+  position: relative;
+  align-content: center;
+  margin: 0px;
+  padding: 0%;
+  border-radius: 0px;
+  }
+
+.stPlotlyChart {
+  background-color: rgb(0,0,0,0);
+  /* position: relative; */
+  border-radius: 25px;
+  border: 0px solid rgba(222, 222, 222, 1);}
+  /* box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important; */
+
+div[class ="st-emotion-cache-1kyxreq e115fcil2"] {
+  justify-content: center;
+  }
+
+/* Move block container higher */
+/* div[data-testid="stMetric"]  {
+  margin-top: -5em;
+} */
+
+
+/* Hide hamburger menu and footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: visible;}
